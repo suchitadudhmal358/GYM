@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar{
@@ -10,7 +11,7 @@ body{
     align-items: center;
     /* background-color: black; */
     /* opacity: 0; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     position: absolute;
     top: 0;
     left: 0;
@@ -40,7 +41,7 @@ width: 40%;
     color: white;
     margin: 10px;
     /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     
 } 
 
@@ -56,9 +57,13 @@ width: 40%;
     
     background-color: red;
     color: white;
-    height: 40px;
-    width: 80px;
+    padding: 11px 17px;
+    font-size: 13px;
+    font-weight: 400px;
+    /* height: 40px;
+    width: 80px; */
     border: none;
+
 }
 
 .navlinks .signUpbtn:hover{
@@ -66,18 +71,21 @@ width: 40%;
 }
 .container{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    /* background: black; */
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .banner-img{
     /* width: 100vw; */
     height: 100vh;
+    background: black;
 }
 
 
 .banner-img img{
     width: 100%;
     height: 100%;
+    opacity: 0.5;
 }
 
 .slider{
@@ -94,17 +102,23 @@ width: 40%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: white;
-    width: 60%;
+    width: 80%;
     /* font-family: 'Roboto', sans-serif; */
 }
 
-.slider-content p{
-    font-size: 20px;
-    font-weight: bold;
+.slider-content h6{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin: 0;
 }
 
 .slider-content h1{
-    font-size: 50pt;
+    font-size: 84px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 30px 0 25px 0;
+    
 }
 .slider-content h1 em{
     color: red;
@@ -113,9 +127,10 @@ width: 40%;
 .addMember{
     color: white;
     background: red;
-    padding: 15px;
+    padding: 12px 20px;
     border: none;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .addMember:hover{
@@ -143,6 +158,18 @@ width: 40%;
     color: red;
 }
 
+
+.title-section h2{
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.title-section p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+}
 .program-section{
     display: flex;
     flex-flow: row wrap;
@@ -170,20 +197,28 @@ width: 40%;
 }
 .program-description h4 {
     margin: 0;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
+    font-size: 19px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
 }
 
-.program-description p,a {
-    /* font-size: 12px; */
+.program-description p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
     margin: 0;
-    padding-bottom: 5px;
-    color: gray;
+    /* padding-bottom: 5px;
+    color: gray; */
     
 }
 
 
 .program-description a{
     color: red;
+    font-size: 13px;
+    font-weight: 500;
+    /* margin-top: 7px; */
     text-decoration: none;
 }
 
@@ -214,19 +249,20 @@ width: 40%;
      }
     
      .navbar{
-         display: block;
-         padding-top: 30px;
+         display: flex;
+         /* padding-top: 30px; */
+         justify-content: space-between;
+         /* padding-right: 20px; */
+         margin-right: 10px;
+     }
+
+     .navlinks{
+         padding-right: 20px;
      }
      .navlinks a{
-        display: block;
-        font-size: 12px;
-        text-align: center;
+        display: none;
         
-        /* text-decoration: none;
-        color: white;
-        margin: 10px;
-        /* font-family: 'Poppins', sans-serif; 
-        font-family: 'Roboto', sans-serif; */
+       
         
     } 
 
@@ -267,9 +303,10 @@ width: 40%;
         width: 70px;
         border: none;
         font-size: 12px;
-        position: absolute;
+        
+        /* position: absolute;
         top:20px;
-        right: 20px;
+        right: 20px; */
     }
 
 /* ------------------------- Responsive Program Section --------------- */
