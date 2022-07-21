@@ -32,7 +32,7 @@ width: 40%;
 }
 
 .logo a em{
-    color: red;
+    color: #ed563b;
     font-weight: 900;
 }
 
@@ -46,16 +46,16 @@ width: 40%;
 } 
 
 .navlinks a:hover{
-    color: red;
+    color: #ed563b;
 }
 
 .navlinks a:active{
-    color: red;
+    color: #ed563b;
 }
 
 .navlinks .signUpbtn{
     
-    background-color: red;
+    background-color: #ed563b;
     color: white;
     padding: 11px 17px;
     font-size: 13px;
@@ -120,13 +120,14 @@ width: 40%;
     margin: 30px 0 25px 0;
     
 }
-.slider-content h1 em{
-    color: red;
+ em{
+    color: #ed563b;
+    font-style: normal;
 }
 
 .addMember{
     color: white;
-    background: red;
+    background: #ed563b;
     padding: 12px 20px;
     border: none;
     font-weight: 400;
@@ -154,9 +155,9 @@ width: 40%;
     margin: 80px 0;
 }
 
-.title-section span{
+/* .title-section span{
     color: red;
-}
+} */
 
 
 .title-section h2{
@@ -175,13 +176,14 @@ width: 40%;
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 20px;
+    margin-bottom: 80px;
 }
 
 .programs{
     display: flex;
     width: 40%;
     /* border:2px solid black; */
-    margin: 10px;
+    margin-bottom: 50px;
     
     /* justify-content: start;
     align-items: flex-start; */
@@ -215,7 +217,7 @@ width: 40%;
 
 
 .program-description a{
-    color: red;
+    color: #ed563b;
     font-size: 13px;
     font-weight: 500;
     /* margin-top: 7px; */
@@ -224,6 +226,7 @@ width: 40%;
 
 .banner-2{
     background: url(./cta-bg.jpg);
+    padding: 20px;
 
 }
 .banner-content{
@@ -235,8 +238,145 @@ width: 40%;
 }
 
 
+.banner-content h2{
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
 
 
+.banner-content p{
+    font-size: 16px;
+    margin: 15px 0 25px 0;
+}
+
+
+.class-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+   justify-content: space-around;
+}
+
+.classes-section{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.classes{
+    width: 30%;
+    margin-bottom: 80px;
+    /* margin-left: 50px; */
+}
+.class-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+
+.classes ul li{
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.classes ul li a{
+    padding: 30px 30px;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.classes ul li a:hover{
+    color: #ed563b;
+}
+
+.classes ul li a:active{
+    color: #ed563b;
+}
+
+.classes ul li a img{
+    margin-right: 20px;
+}
+
+div.Shedulebtn{
+    width: 100%;
+    height: 50px;
+    
+}
+
+div.Shedulebtn a{
+    background-color: #ed563b;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    padding: 20px 30px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.Shedulebtn a:hover{
+    opacity: 0.6;
+}
+
+.class-description{
+    width: 60%;
+}
+
+
+.class-description img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.class-description h4{
+    font-size: 23px;
+    font-weight: 700;
+    columns: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.class-description p{
+    font-size: 14px;
+    columns: #7a7a7a;
+    margin-bottom: 28px;
+}
+
+.main-btn a{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.main-btn a:hover{
+    opacity: 0.6;
+}
 
 /* --------------------------Media Query--------------------------------   */
 
@@ -289,7 +429,7 @@ width: 40%;
 
     .addMember{
         color: white;
-        background: red;
+        background: #ed563b;
         padding: 15px;
         border: none;
         font-size: 12px;
@@ -297,7 +437,7 @@ width: 40%;
 
     .navlinks .signUpbtn{
         
-        background-color: red;
+        background-color: #ed563b;
         color: white;
         height: 30px;
         width: 70px;
@@ -338,4 +478,35 @@ width: 40%;
         
     }
     
+    /* ------------------------- Responsive Banner-2 --------------- */
+
+    .banner-content{
+      
+        width: 100%;
+        text-align: center;
+        padding: 50px 0px;
+        color: white;
+    }
+
+    /* ------------------------- Responsive Class Section --------------- */
+
+
+    .classes-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .classes ul li a {
+        font-size: 18px;
+    }
+    .classes{
+        width: 100%;
+        margin-bottom: 80px;
+        /* margin-left: 50px; */
+    }
+    .class-description{
+        width: 100%;
+        margin-bottom: 80px;
+    }
 }
