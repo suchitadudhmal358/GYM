@@ -464,10 +464,10 @@ div.Shedulebtn a{
 .trainer-section{
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
+    align-items: center;
     /* align-content: center; */
-    width: 100vw; 
-   
+    /* width: 100vw;  */
+   margin-bottom: 80px;
    
 }
 
@@ -478,16 +478,18 @@ div.Shedulebtn a{
     background-color: #fff;
     border: 5px;
     box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
-    /* padding: 40px; */
-    width: 25%;
+    padding: 20px;
+    width: 20%;
     justify-content: center;
    
 }
 
 .trainer img{
-    width: 210px;
-    height: 159px;
+    width: 100%;
+   
 }
+
+
 
 
 .trainer-info span{
@@ -675,5 +677,14 @@ div.Shedulebtn a{
     }
 
 
+    .trainer-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trainer{
+        width: 80%;
+        margin-bottom: 40px;
+    }
 
 }
