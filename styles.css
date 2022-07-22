@@ -452,8 +452,84 @@ div.Shedulebtn a{
     letter-spacing: 0.25px;
 }
 
+.trainer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   justify-content: space-around;
+}
 
 
+.trainer-section{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* align-content: center; */
+    width: 100vw; 
+   
+   
+}
+
+
+.trainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    /* padding: 40px; */
+    width: 25%;
+    justify-content: center;
+   
+}
+
+.trainer img{
+    width: 210px;
+    height: 159px;
+}
+
+
+.trainer-info span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ed563b;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.trainer-info h4{
+    font-size: 19px;
+    font-weight: 600;
+    columns: #232d39;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+.trainer-info p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 25px;
+}
+
+.trainer-info ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.trainer-info ul li{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.trainer-info ul li a{
+    color: #232d39 ;
+    text-decoration: none;
+}
 
 /* --------------------------Media Query--------------------------------   */
 
