@@ -378,6 +378,83 @@ div.Shedulebtn a{
     opacity: 0.6;
 }
 
+.class-schedule-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+   justify-content: space-around;
+   background: url("./schedule-bg.jpg");
+   color: #fff;
+  
+  
+}
+
+.class-schedule-container .title-section{
+    margin-bottom: 20px;
+}
+
+.class-schedule-container p{
+    color: #fff;
+    
+}
+
+.time-table{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 80px;
+    /* margin: auto; */
+   
+}
+
+.time-table ul{
+    margin-bottom: 40px;
+    padding: 0;
+   
+}
+.time-table ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.time-table ul li::after{
+    content: "/";
+    margin-left: 10px;
+}
+.time-table ul li:hover{
+    color: #ed563b;
+}
+.time-table ul li:active{
+    color: #ed563b;
+}
+
+.time-table table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+.time-table table tr{
+    border-bottom : 1px solid #fff ;
+}
+
+.time-table table tr td{
+    border-right: 1px solid #fff;
+    height: 100px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+}
+
+
+
+
 /* --------------------------Media Query--------------------------------   */
 
 @media screen and (max-width:600px) {
@@ -509,4 +586,18 @@ div.Shedulebtn a{
         width: 100%;
         margin-bottom: 80px;
     }
+
+    /* ------------------------- Responsive Class Schedule Section --------------- */
+    .class-schedule-container{
+        padding: 0 20px;
+
+    }
+
+    .time-table{
+        width: 100%;
+        
+    }
+
+
+
 }
