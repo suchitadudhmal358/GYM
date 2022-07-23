@@ -71,6 +71,71 @@ width: 40%;
 .navlinks .signUpbtn:hover{
     opacity: 0.6;
 }
+
+.navigation .navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+    /* opacity: 0; */
+    /* font-family: 'Roboto', sans-serif; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    
+}
+
+.navigation .navbar .logo a{
+   text-decoration: none;
+   color: black;
+   font-size: 32px;
+   text-transform: uppercase;
+   font-weight: 800;
+   padding-left: 20px;
+}
+
+.navigation .navbar .navlinks a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    
+} 
+
+.navigation .navbar .navlinks a:hover{
+    color: #ed563b;
+}
+
+.navigation .navbar .navlinks a:active{
+    color: #ed563b;
+}
+
+.navigation{
+    display: none;
+}
+
+.navigation .navlinks .signUpbtn{
+    
+    background-color: #ed563b;
+    color: white;
+    padding: 11px 17px;
+    font-size: 13px;
+    font-weight: 400px;
+    /* height: 40px;
+    width: 80px; */
+    border: none;
+
+}
+
+.navigation .navlinks .signUpbtn:hover{
+    opacity: 0.6;
+}
+
+
 .container{
     margin: 0;
     position: relative;
@@ -807,5 +872,69 @@ div.Shedulebtn a{
         width: 90%;
     }
     
+    .navigation .navbar .logo a{
+        font-size: 20px;
+        /* font-weight: 800; */
+     }
+    
+     
+     .navigation .navlinks{
+         padding-right: 20px;
+     }
+    .navigation .navlinks a{
+        display: none;
 
+    } 
+    .navigation #regbtn{
+        display: block;
+    }
+
+    .navigation .navbar{
+        display: flex;
+        height: 80px;
+        background: white;
+        justify-content: space-between;
+         /* padding-right: 20px; */
+         margin-right: 10px;
+        
+    }
+
+    .navigation  .navlinks .signUpbtn{
+        
+        background-color: #ed563b;
+        color: white;
+        /* height: 30px;
+        width: 100px; */
+        border: none;
+        font-size: 12px;
+        
+        /* position: absolute;
+        top:20px;
+        right: 20px; */
+    }
+
+}
+
+@media  screen and (min-height: 160px) {
+    
+    .navigation{
+        display: flex;
+        position: sticky;
+        top: 0;
+        
+        
+    }
+
+    .navigation .navbar{
+        display: flex;
+        height: 80px;
+        background: white;
+        justify-content: space-between;
+         /* padding-right: 20px; */
+         margin-right: 10px;
+        
+    }
+
+    
+    
 }
